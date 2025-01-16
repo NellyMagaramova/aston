@@ -35,10 +35,10 @@ public class Main {
         else System.out.println("a<b");
     }
 
-    public void func1(int a, int b){
+    public boolean func1(int a, int b){
         int summ = a+b;
-        if(summ>=10 && summ <=20) System.out.println("true");
-        else System.out.println("false");
+        if(summ>=10 && summ <=20) return true;
+        return false;
     }
 
     public void func2(int a) {
@@ -46,9 +46,9 @@ public class Main {
         else System.out.println("число отрицательное");
     }
 
-    public void func3(int a) {
-        if(a<0) System.out.println("true");
-        else System.out.println("false");
+    public boolean func3(int a) {
+        if(a<0) return true;
+        return false;
     }
 
     public void func4(String str, int count){
@@ -126,9 +126,11 @@ public boolean func5(int value) {
         main.printColor();
         main.compareNumbers();
 
-        main.func1(5, 10);
+        boolean r =  main.func1(5, 10);
+        System.out.println("result = "+ r);
         main.func2(5);
-        main.func3(0);
+        boolean res = main.func3(0);
+        System.out.println("result = "+ res);
         main.func4("Hello", 3);
         boolean result = main.func5(2000);
         System.out.println("result = "+ result);
