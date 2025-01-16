@@ -126,13 +126,13 @@ public boolean func5(int value) {
         main.printColor();
         main.compareNumbers();
 
-        boolean r =  main.func1(5, 10);
-        System.out.println("result = "+ r);
+        boolean result =  main.func1(5, 10);
+        System.out.println("result = "+ result);
         main.func2(5);
-        boolean res = main.func3(0);
-        System.out.println("result = "+ res);
+        result = main.func3(0);
+        System.out.println("result = "+ result);
         main.func4("Hello", 3);
-        boolean result = main.func5(2000);
+        result = main.func5(2000);
         System.out.println("result = "+ result);
         main.func6();
         main.func7();
