@@ -9,25 +9,23 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main main = new Main();
-
         printThreeWords();
         ckeckSumSign();
         printColor();
         compareNumbers();
-        boolean result =  func5(5, 10);
+        boolean result =  checkAmountRange(5, 10);
         System.out.println("result = "+ result);
-        func6(5);
-        result = main.func7(0);
+        checkPositiveNumber(5);
+        result = checkPositiveNumber2(0);
         System.out.println("result = "+ result);
-        func8("Hello", 3);
-        result = func9(2000);
+        repeatString("Hello", 3);
+        result = visokos(2000);
         System.out.println("result = "+ result);
-        func10();
-        func11();
-        func12();
-        func13(10);
-        func14(3, 2);
+        changeByte();
+        fillArray();
+        multiplyTwo();
+        fillDiagonally(10);
+        arrayInitialValue(3, 2);
     }
 
     public static void printThreeWords(){
@@ -63,41 +61,41 @@ public class Main {
         else System.out.println("a<b");
     }
 
-    public static  boolean func5(int a, int b){
-        System.out.println("func 5  ");
+    public static  boolean checkAmountRange(int a, int b){
+        System.out.println("checkAmountRange  ");
         int summ = a+b;
         if(summ>=10 && summ <=20) return true;
         return false;
     }
 
-    public static void func6(int a) {
-        System.out.println("func 6  ");
+    public static void checkPositiveNumber(int a) {
+        System.out.println("checkPositiveNumber  ");
         if(a>=0) System.out.println("число положительное");
         else System.out.println("число отрицательное");
     }
 
-    public static boolean func7(int a) {
-        System.out.println("func 7  ");
+    public static boolean checkPositiveNumber2(int a) {
+        System.out.println("checkPositiveNumber2  ");
         if(a<0) return true;
         return false;
     }
 
-    public static void func8(String str, int count){
-        System.out.println("func 8  ");
+    public static void  repeatString(String str, int count){
+        System.out.println("repeatString  ");
         for(int i = 0; i<count; i++){
             System.out.println(str);
         }
     }
 
-    public static boolean func9(int value) {
-        System.out.println("func 9  ");
+    public static boolean visokos(int value) {
+        System.out.println("visokos  ");
         if (value % 4 == 0 && value % 100 != 0) {
             return true;
         }
         return false;
     }
 
-    public static  void func10(){
+    public static  void changeByte(){
         int[] arr = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
         for(int i = 0; i<arr.length; i++)
         {
@@ -106,30 +104,30 @@ public class Main {
                 case 1: arr[i] = 0; break;
             }
         }
-        System.out.println("func 10 = "+ Arrays.toString(arr));
+        System.out.println("changeByte = "+ Arrays.toString(arr));
     }
 
-    public static void func11(){
+    public static void fillArray(){
         int[] arr = new int[100];
         for(int i = 0; i<arr.length; i++){
             arr[i] = i+1;
         }
-        System.out.println("func 11 = "+ Arrays.toString(arr));
+        System.out.println("fillArray = "+ Arrays.toString(arr));
     }
 
-    public static  void func12(){
+    public static  void multiplyTwo(){
         int[] arr= {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         for(int i = 0; i< arr.length; i++)
         {
             if(arr[i]<6)
                 arr[i] = arr[i] *2;
         }
-        System.out.println("func 12 = "+ Arrays.toString(arr));
+        System.out.println("multiplyTwo = "+ Arrays.toString(arr));
     }
 
-    public static void func13(int count){
+    public static void fillDiagonally(int count){
         int[][] arr = new int[count][count];
-        System.out.println("func 13 ");
+        System.out.println("fillDiagonally ");
 
         for (int i = 1; i < count; i++) {
             for (int j = 1; j < count; j++) {
@@ -144,11 +142,11 @@ public class Main {
         }
     }
 
-    public static void func14(int len, int initialValue){
+    public static void arrayInitialValue(int len, int initialValue){
         int[] arr =  new int[len];
         for(int i = 0; i<arr.length; i++){
             arr[i] = initialValue;
         }
-        System.out.println("func 14 = "+ Arrays.toString(arr));
+        System.out.println("arrayInitialValue = "+ Arrays.toString(arr));
     }
 }
