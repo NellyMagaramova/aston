@@ -12,8 +12,8 @@ public class Main {
         compareNumbers();
         boolean result =  checkAmountRange(5, 10);
         System.out.println("result = "+ result);
-        checkPositiveNumber(5);
-        result = checkPositiveNumber2(0);
+        identifySign(5);
+        result = checkPositiveNumber(0);
         System.out.println("result = "+ result);
         repeatString("Hello", 3);
         result = visokos(2000);
@@ -65,13 +65,13 @@ public class Main {
         return false;
     }
 
-    public static void checkPositiveNumber(int a) {
-        System.out.println("checkPositiveNumber  ");
+    public static void identifySign(int a) {
+        System.out.println("identifySign  ");
         if(a>=0) System.out.println("число положительное");
         else System.out.println("число отрицательное");
     }
 
-    public static boolean checkPositiveNumber2(int a) {
+    public static boolean checkPositiveNumber(int a) {
         System.out.println("checkPositiveNumber2  ");
         if(a<0) return true;
         return false;
