@@ -2,22 +2,17 @@ package org.test;
 
 import java.util.Arrays;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         printThreeWords();
         ckeckSumSign();
         printColor();
         compareNumbers();
-        boolean result =  checkAmountRange(5, 10);
-        System.out.println("result = "+ result);
+        System.out.println(checkAmountRange(5, 10));
         identifySign(5);
-        result = checkPositiveNumber(0);
-        System.out.println("result = "+ result);
+        System.out.println(checkPositiveNumber(0));
         repeatString("Hello", 3);
-        result = visokos(2000);
-        System.out.println("result = "+ result);
+        System.out.println(visokos(2000));
         changeByte();
         fillArray();
         multiplyTwo();
