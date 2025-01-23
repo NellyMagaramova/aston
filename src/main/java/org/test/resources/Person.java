@@ -19,7 +19,7 @@ public class Person {
     }
 
     public void info(){
-        System.out.println("FIO: " + fio +", " + "должность: " + position  + ", " + "email: " + email + ", " +
+        System.out.println("Фамилие имя отчество.: " + fio +", " + "должность: " + position  + ", " + "email: " + email + ", " +
                 "телефон: "+ phoneNumber + ", " + "зарплата: " + salary + ", " + "возраст: " + age);
     }
 
