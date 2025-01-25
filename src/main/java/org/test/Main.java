@@ -7,14 +7,11 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-
         Cat cat1 = new Cat();
         cat1.run(10);
-
         Dog dog1 = new Dog();
         dog1.run(200);
         dog1.swim(100);
-
         Dish dish = new Dish(14);
 
         Cat[] cats = new Cat[2];
@@ -26,6 +23,5 @@ public class Main {
         }
 
         System.out.println("количество животных "+ Animal.count);
-
     }
 }

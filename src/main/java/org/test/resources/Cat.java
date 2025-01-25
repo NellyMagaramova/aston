@@ -2,7 +2,6 @@ package org.test.resources;
 import org.test.resources.Animal;
 
 public class Cat extends Animal {
-
     private int foodNeed;
     private boolean sytost;
 
@@ -45,7 +44,6 @@ public class Cat extends Animal {
 
         System.out.println("не хватило еды" );
     }
-
 
     public Cat(){
 

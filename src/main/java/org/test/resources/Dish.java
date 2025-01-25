@@ -1,7 +1,6 @@
 package org.test.resources;
 
 public class Dish {
-
     private int maxFood;
 
     public int getMaxFood() {
