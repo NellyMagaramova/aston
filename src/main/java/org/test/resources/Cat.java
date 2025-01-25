@@ -38,6 +38,7 @@ public class Cat extends Animal {
 
         if (foodNeed < dish.getMaxFood()){
             System.out.println("поел");
+            dish.removeFood(foodNeed);
             sytost = true;
             return;
         }

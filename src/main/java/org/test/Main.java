@@ -13,11 +13,12 @@ public class Main {
         dog1.swim(100);
         Dish dish = new Dish(14);
 
-        Cat[] cats = new Cat[2];
+        Cat[] cats = new Cat[3];
         cats[0] = new Cat(15);
         cats[1] = new Cat(13);
+        cats[2] = new Cat(3);
 
-        for(int i = 0; i < 2; i++){
+        for(int i = 0; i < cats.length; i++){
             cats[i].eat(dish);
         }
 
