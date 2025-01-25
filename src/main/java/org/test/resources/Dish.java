@@ -7,7 +7,7 @@ public class Dish {
         return maxFood;
     }
 
-    public void removeFood(int food){
+    public void removeMaxFood(int food){
         this.maxFood -= food;
     }
 
