@@ -2,8 +2,6 @@ package org.test;
 
 import java.util.Arrays;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void testArray(String[][]  arr) throws MyArraySizeException, MyArrayDataException {
         if (arr[0].length != 4 || arr.length != 4){
