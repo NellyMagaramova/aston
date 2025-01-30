@@ -27,7 +27,12 @@ public class Cat extends Animal {
 
     @Override
     public void run(int m) {
-        if(m<200)  System.out.println("Кот пробежал" + m + "m");
+        if(m <= 200)  System.out.println("Кот пробежал" + m + "m");
+    }
+
+    @Override
+    public void swim(int m) {
+        throw new UnsupportedOperationException();
     }
 
     public void eat(Dish dish){
@@ -46,9 +51,7 @@ public class Cat extends Animal {
         System.out.println("не хватило еды" );
     }
 
-    public Cat(){
 
-    }
 
 
 }

@@ -6,7 +6,7 @@ public class Dog  extends Animal{
 
     @Override
     public void run(int m) {
-        if(m<500) System.out.println("Бобик пробежал" + m+ "m");
+        if(m<=500) System.out.println("Бобик пробежал" + m+ "m");
         return;
     }
 
