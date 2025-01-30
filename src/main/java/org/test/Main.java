@@ -23,5 +23,20 @@ public class Main {
         }
 
         System.out.println("количество животных "+ Animal.count);
+
+        Rectangle rectangle1 = new Rectangle(5, 4);
+        rectangle1.setBorderColor("Красный");
+        rectangle1.setFillColor("желтый");
+        rectangle1.info();
+
+        Triangle triangle1 = new Triangle(3, 4);
+        triangle1.setBorderColor("Черный");
+        triangle1.setFillColor("Белый");
+        triangle1.info();
+
+        Circle circle1 = new Circle(3);
+        circle1.setBorderColor("Розовый");
+        circle1.setFillColor("Пурпурный");
+        circle1.info();
     }
 }
