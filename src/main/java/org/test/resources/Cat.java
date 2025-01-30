@@ -3,14 +3,14 @@ import org.test.resources.Animal;
 
 public class Cat extends Animal {
     private int foodNeed;
-    private boolean sytost;
+    private boolean satiety;
 
     public boolean isSytost() {
-        return sytost;
+        return satiety;
     }
 
-    public void setSytost(boolean sytost) {
-        this.sytost = sytost;
+    public void setSatiety(boolean sytost) {
+        this.satiety = sytost;
     }
 
     public Cat(int foodNeed) {
@@ -44,7 +44,7 @@ public class Cat extends Animal {
         if (foodNeed < dish.getMaxFood()){
             System.out.println("поел");
             dish.removeMaxFood(foodNeed);
-            sytost = true;
+            satiety = true;
             return;
         }
 
