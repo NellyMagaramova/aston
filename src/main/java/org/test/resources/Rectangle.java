@@ -1,12 +1,22 @@
 package org.test.resources;
 
-public class Rectangle extends Shape{
-    double width, height;
-    String fillColor;
-    String borderColor;
+public class Rectangle implements Shape{
+    private double width, height;
+    private String fillColor;
+    private String borderColor;
 
     public void setBorderColor(String borderColor) {
         this.borderColor = borderColor;
+    }
+
+    @Override
+    public String getBorderColor(){
+        return borderColor;
+    }
+
+    @Override
+    public String getFillColor(){
+        return fillColor;
     }
 
     public void setFillColor(String fillColor) {
@@ -23,7 +33,6 @@ public class Rectangle extends Shape{
         return 2 * (width + height);
     }
 
-    @Override
     public void info() {
         System.out.println("Периметр: " + perimeter()+", "+ "площаль" + computeArea() + "цвет фона" + fillColor + ", " +
                 "цвет границы" + borderColor);

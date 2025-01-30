@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc873b1-48f4-41ef-83ed-8dc6c2aa02b4" name="Changes" comment="to review">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/resources/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/resources/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/resources/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/resources/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/resources/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/resources/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/resources/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/resources/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/resources/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/resources/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738232939291</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="to review">
+      <option name="closed" value="true" />
+      <created>1738263337691</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1738263337691</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,5 +295,16 @@
     <MESSAGE value="init" />
     <MESSAGE value="to review" />
     <option name="LAST_COMMIT_MESSAGE" value="to review" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/test/resources/Shape.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

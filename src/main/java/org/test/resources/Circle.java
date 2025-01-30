@@ -1,12 +1,22 @@
 package org.test.resources;
 
-public class Circle extends Shape{
-    double radius;
-    String fillColor;
-    String borderColor;
+public class Circle implements Shape{
+    private double radius;
+    private String fillColor;
+    private String borderColor;
 
     public void setFillColor(String fillColor) {
         this.fillColor = fillColor;
+    }
+
+    @Override
+    public String getBorderColor(){
+        return borderColor;
+    }
+
+    @Override
+    public String getFillColor(){
+        return fillColor;
     }
 
     public Circle(int radius){
@@ -27,7 +37,6 @@ public class Circle extends Shape{
         return 2 * Math.PI * radius;
     }
 
-    @Override
     public void info() {
         System.out.println("Периметр: " + perimeter()+", "+ "площаль" + computeArea() + "цвет фона" + fillColor + ", " +
                 "цвет границы" + borderColor);

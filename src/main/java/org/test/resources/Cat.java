@@ -51,6 +51,10 @@ public class Cat extends Animal {
         System.out.println("не хватило еды" );
     }
 
+    public Cat(){
+
+    }
+
 
 
 
