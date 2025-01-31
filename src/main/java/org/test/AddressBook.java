@@ -32,10 +32,6 @@ public class AddressBook {
         addressBook.add(79200281319L, "Vera Magaramova");
         addressBook.add(79200270953L, "Aslan Magaramov");
         addressBook.add(79200270954L, "Aslan Magaramov");
-
         addressBook.get("Aslan Magaramov");
-
-
     }
-
 }
