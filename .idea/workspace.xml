@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6fc873b1-48f4-41ef-83ed-8dc6c2aa02b4" name="Changes" comment="to review">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/AddressBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AddressBook">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AddressBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.test.AddressBook" />
       <module name="aston.main" />
@@ -196,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738348020781</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="to review">
+      <option name="closed" value="true" />
+      <created>1738348251498</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738348251498</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
