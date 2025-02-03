@@ -21,43 +21,22 @@ public class Main {
     }
 
     public static void main(String[] args) throws MyArraySizeException, MyArrayDataException {
-        String[][] mass = new String[4][4];
-        String[][] mass2 = new String[4][4];
+
+         String[][] mass = {
+                {"3", "2", "7", "5"},
+                {"3", "6", "5", "4"},
+                {"3", "1", "6", "6"},
+                {"3", "1", "6", "9"}
+        };
+
+        String[][] mass2 = {
+                {"3", "2", "7", "5"},
+                {"3", "6", "5", "4"},
+                {"3", "1", "6", "6"},
+                {"3", "1", "6", "str"}
+        };
+
         String[][] mass3 = new String[5][4];
-
-        mass[0][0] = "34";
-        mass[0][1] = "11";
-        mass[0][2] = "23";
-        mass[0][3] = "24";
-        mass[1][0] = "26";
-        mass[1][1] = "27";
-        mass[1][2] = "28";
-        mass[1][3] = "29";
-        mass[2][0] = "30";
-        mass[2][1] = "31";
-        mass[2][2] = "32";
-        mass[2][3] = "33";
-        mass[3][0] = "34";
-        mass[3][1] = "35";
-        mass[3][2] = "36";
-        mass[3][3] = "37";
-
-        mass2[0][0] = "34";
-        mass2[0][1] = "11";
-        mass2[0][2] = "23";
-        mass2[0][3] = "24";
-        mass2[1][0] = "26";
-        mass2[1][1] = "27";
-        mass2[1][2] = "28";
-        mass2[1][3] = "29";
-        mass2[2][0] = "30";
-        mass2[2][1] = "31";
-        mass2[2][2] = "32";
-        mass2[2][3] = "33";
-        mass2[3][0] = "34";
-        mass2[3][1] = "35";
-        mass2[3][2] = "36";
-        mass2[3][3] = "str";
 
         testArray(mass);
         testArray(mass2);
