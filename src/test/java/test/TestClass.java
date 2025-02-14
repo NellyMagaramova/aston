@@ -18,7 +18,6 @@ public class TestClass {
     private String baseUrl;
     private WebElement element;
 
-
     @BeforeEach
     void setup() {
         driver = WebDriverManager.chromedriver().create();
