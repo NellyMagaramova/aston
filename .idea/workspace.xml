@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc873b1-48f4-41ef-83ed-8dc6c2aa02b4" name="Changes" comment="to review">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestEcho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestEcho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestEcho.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,35 +76,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.D:/practices/aston [Main.main()].executor": "Run",
-    "Gradle.FactorialTest.executor": "Run",
-    "Gradle.FactorialTest.test1.executor": "Run",
-    "Gradle.FactorialTest.test2.executor": "Run",
-    "Gradle.Load Gradle Dependencies.executor": "Run",
-    "Gradle.TestClass.executor": "Run",
-    "Gradle.TestClass.test1.executor": "Run",
-    "Gradle.TestClass.test2.executor": "Run",
-    "Gradle.TestClass.testLink.executor": "Run",
-    "Gradle.TestClass.testPaySystems.executor": "Run",
-    "Gradle.aston [:Main.main()].executor": "Run",
-    "Gradle.aston [build].executor": "Run",
-    "Gradle.aston [clean].executor": "Run",
-    "Gradle.aston [dependencies].executor": "Run",
-    "Gradle.aston [test].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "lesson__17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/practices/aston/page object/untitled1",
-    "onboarding.tips.debug.path": "D:/practices/aston/src/main/java/org/test/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.D:/practices/aston [Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FactorialTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FactorialTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FactorialTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestClass.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestClass.test1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestClass.test2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestClass.testLink.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestClass.testPaySystems.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.aston [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.aston [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.aston [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.aston [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.aston [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lesson__17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/practices/aston/page object/untitled1&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/practices/aston/src/main/java/org/test/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.test" />
@@ -232,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.aston [dependencies]" />
         <item itemvalue="Gradle.FactorialTest.test2" />
         <item itemvalue="Gradle.FactorialTest.test1" />
         <item itemvalue="Gradle.FactorialTest" />
         <item itemvalue="Gradle.aston [test]" />
+        <item itemvalue="Gradle.aston [dependencies]" />
       </list>
     </recent_temporary>
   </component>
