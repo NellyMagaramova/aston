@@ -1,4 +1,5 @@
 package org.test;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,30 +20,32 @@ public class MtsPaymentPage extends BasePage{
         super(driver);
     }
 
-
+    @Step("вводим номер телефона")
     public void enterPhone() {
         WebElement phone = driver.findElement(PAYMENT_PHONE);
         phone.sendKeys("297777777");
 
     }
 
+    @Step("ввод суммы")
     public void enterSum() {
         WebElement sum = driver.findElement(PAYMENT_SUM);
         sum.sendKeys("500");
     }
 
-
+    @Step("ввод email")
     public void enterEmail() {
         WebElement sum = driver.findElement(PAYMENT_EMAIL);
         sum.sendKeys("test@mail.ru");
     }
 
-
+    @Step("кликаем ок")
     public void clickOk() {
         WebElement okButton = driver.findElement(BUTTON_OK);
         okButton.click();
     }
 
+    @Step("проверяем сумму")
     public void checkSum() {
         WebElement iframe = driver.findElement(FRAME);
         driver.switchTo().frame(iframe);
