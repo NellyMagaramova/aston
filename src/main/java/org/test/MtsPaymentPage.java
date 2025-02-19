@@ -31,12 +31,10 @@ public class MtsPaymentPage extends BasePage{
         sum.sendKeys("500");
     }
 
-
     public void enterEmail() {
         WebElement sum = driver.findElement(PAYMENT_EMAIL);
         sum.sendKeys("test@mail.ru");
     }
-
 
     public void clickOk() {
 
@@ -49,15 +47,5 @@ public class MtsPaymentPage extends BasePage{
         WebElement iframe = driver.findElement(FRAME);
         driver.switchTo().frame(iframe);
         System.out.println("iframe.isDisplayed() = " + iframe.isDisplayed());
-    }
-
-    public static void main(String[] args) {
-        WebDriver driver = new ChromeDriver();
-        MtsPaymentPage paymentPage = new MtsPaymentPage(driver);
-        paymentPage.enterPhone();
-        paymentPage.enterSum();
-        paymentPage.enterEmail();
-        paymentPage.clickOk();
-        paymentPage.checkSum();
     }
 }
