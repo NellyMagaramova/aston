@@ -34,15 +34,15 @@ public class TestEcho {
     @Test
     public void testGet2(){
        /* RequestSpecification req = given().queryParams("foo1", "testValue"); */
-        RequestSpecification req = given().queryParams("foo1", "bar1");
+        RequestSpecification req = given().queryParams("param1", "param1Value");
         req.when().get("/get").then().statusCode(200);
     }
 
     // проверяем значение поля из ответа json
     @Test
     public void testGet3(){
-        RequestSpecification req = given().queryParams("foo2", "bar2");
-        req.when().get("/get").then().statusCode(200).and().body("args.foo1", equalTo("testValue"));
+        RequestSpecification req = given().queryParams("foo1","bar1","foo2", "bar2");
+        req.when().get("/get").then().statusCode(200).and().body("args.foo1", equalTo("bar1"));
     }
 
     // проверяем значение поля из ответа json
@@ -50,7 +50,7 @@ public class TestEcho {
     public void testPost1(){
         RequestSpecification req = given()
                 .header("Content-type", "application/json")
-                .formParams("foo1", "testValue");
+                .formParams("test", "value");
 
 
         Response response = req
@@ -61,9 +61,67 @@ public class TestEcho {
 
 
         Assertions.assertEquals(200, response.statusCode());
-        Assertions.assertEquals("foo1=testValue", response.jsonPath().getString("data"));
+        Assertions.assertEquals("test=value", response.jsonPath().getString("data"));
 
     }
+
+    @Test
+    public void testPut(){
+        RequestSpecification req = given()
+                .header("Content-type", "application/json")
+                .formParams("foo1", "value");
+
+
+        Response response = req
+                .when()
+                .put("/put")
+                .then()
+                .extract().response();
+
+
+        Assertions.assertEquals(200, response.statusCode());
+    }
+
+    @Test
+    public void testPatch(){
+        RequestSpecification req = given()
+                .header("Content-type", "application/json")
+                .formParams("foo1", "value");
+
+
+        Response response = req
+                .when()
+                .patch("/patch")
+                .then()
+                .extract().response();
+
+
+        Assertions.assertEquals(200, response.statusCode());
+
+    }
+
+    @Test
+    public void testDelete(){
+        RequestSpecification req = given()
+                .header("Content-type", "application/json")
+                .formParams("id","1");
+
+
+        Response response = req
+                .when()
+                .delete("/delete")
+                .then()
+                .extract().response();
+
+
+        Assertions.assertEquals(200, response.statusCode());
+
+    }
+
+
+
+
+
 
 
 }
