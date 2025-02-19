@@ -1,5 +1,6 @@
 package test;
 
+import org.junit.jupiter.api.DisplayName;
 import org.test.MtsPaymentPage;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -16,23 +17,25 @@ public class TestPayment {
         paymentPage = new MtsPaymentPage(driver);
     }
 
+    @DisplayName("enter phone")
     @Test
     public void test1(){
         paymentPage.enterPhone();
     }
 
+    @DisplayName("enter sum")
     @Test
     public void test2(){ paymentPage.enterSum();}
 
+    @DisplayName("enter email")
     @Test
     public void test3(){ paymentPage.enterEmail();}
 
-    @Test
-    public void test4(){ paymentPage.enterEmail();}
-
+    @DisplayName("click ok")
     @Test
     public void test5(){ paymentPage.clickOk();}
 
+    @DisplayName("check sum")
     @Test
     public void test6(){ paymentPage.checkSum();}
 }
