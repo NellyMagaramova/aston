@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc873b1-48f4-41ef-83ed-8dc6c2aa02b4" name="Changes" comment="to review">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/test/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/test/MtsPaymentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/MtsPaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/MtsPaymentPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,33 +27,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="aston" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="aston" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="aston" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="aston" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="aston" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -75,7 +44,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson_14" />
+        <entry key="$PROJECT_DIR$" value="lesson_8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,33 +77,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.D:/practices/aston [Main.main()].executor": "Run",
-    "Gradle.FactorialTest.executor": "Run",
-    "Gradle.FactorialTest.test1.executor": "Run",
-    "Gradle.FactorialTest.test2.executor": "Run",
-    "Gradle.TestClass.executor": "Run",
-    "Gradle.TestClass.test1.executor": "Run",
-    "Gradle.TestClass.test2.executor": "Run",
-    "Gradle.TestClass.testLink.executor": "Run",
-    "Gradle.TestClass.testPaySystems.executor": "Run",
-    "Gradle.aston [:Main.main()].executor": "Run",
-    "Gradle.aston [build].executor": "Run",
-    "Gradle.aston [clean].executor": "Run",
-    "Gradle.aston [test].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "lesson__15",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/practices/aston/page object/untitled1",
-    "onboarding.tips.debug.path": "D:/practices/aston/src/main/java/org/test/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.D:/practices/aston [Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestPayment.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.aston [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lesson__18&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/practices/aston/src/main/java/org/test/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.test" />
@@ -263,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestClass.testPaySystems" />
+        <item itemvalue="Gradle.TestClass.testLink" />
         <item itemvalue="Gradle.TestClass.test2" />
         <item itemvalue="Gradle.TestClass.test1" />
-        <item itemvalue="Gradle.TestClass.testLink" />
         <item itemvalue="Gradle.TestClass" />
-        <item itemvalue="Gradle.TestClass.testPaySystems" />
       </list>
     </recent_temporary>
   </component>
@@ -410,11 +365,11 @@
     </task>
     <task id="LOCAL-00017" summary="to review">
       <option name="closed" value="true" />
-      <created>1739543182112</created>
+      <created>1739961240979</created>
       <option name="number" value="00017" />
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1739543182112</updated>
+      <updated>1739961240979</updated>
     </task>
     <option name="localTasksCounter" value="18" />
     <servers />
