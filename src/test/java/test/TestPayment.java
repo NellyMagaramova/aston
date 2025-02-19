@@ -20,4 +20,19 @@ public class TestPayment {
     public void test1(){
         paymentPage.enterPhone();
     }
+
+    @Test
+    public void test2(){ paymentPage.enterSum();}
+
+    @Test
+    public void test3(){ paymentPage.enterEmail();}
+
+    @Test
+    public void test4(){ paymentPage.enterEmail();}
+
+    @Test
+    public void test5(){ paymentPage.clickOk();}
+
+    @Test
+    public void test6(){ paymentPage.checkSum();}
 }
