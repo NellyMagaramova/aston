@@ -22,6 +22,7 @@ public class TestPayment {
         driver.quit();
     }
 
+
     @Test
     public void test1(){
         paymentPage.enterPhone();
