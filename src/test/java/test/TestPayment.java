@@ -8,6 +8,8 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class TestPayment {
     private WebDriver driver;
     private MtsPaymentPage paymentPage;
@@ -16,6 +18,7 @@ public class TestPayment {
     public void setup(){
         driver = new ChromeDriver();
         paymentPage = new MtsPaymentPage(driver);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
     @AfterEach
