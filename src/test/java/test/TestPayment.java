@@ -1,5 +1,6 @@
 package test;
 
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
 import org.test.MtsPaymentPage;
 import org.junit.jupiter.api.BeforeEach;
@@ -16,6 +17,12 @@ public class TestPayment {
         driver = new ChromeDriver();
         paymentPage = new MtsPaymentPage(driver);
     }
+
+    @AfterEach
+    void  teardown() {
+        driver.quit();
+    }
+
 
     @DisplayName("enter phone")
     @Test
