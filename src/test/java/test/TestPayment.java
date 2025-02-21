@@ -1,12 +1,12 @@
 package test;
 
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.*;
 import org.test.MtsPaymentPage;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.util.concurrent.TimeUnit;
 
 public class TestPayment {
@@ -25,24 +25,22 @@ public class TestPayment {
         driver.quit();
     }
 
-
     @Test
-    public void test1(){
+    public void testPhone(){
         paymentPage.enterPhone();
     }
 
     @Test
-    public void test2(){ paymentPage.enterSum();}
+    public void testSumm(){ paymentPage.enterSum();}
 
     @Test
-    public void test3(){ paymentPage.enterEmail();}
+    public void testEmail(){ paymentPage.enterEmail();}
 
     @Test
-    public void test4(){ paymentPage.enterEmail();}
+    public void testOk(){ paymentPage.clickOk();}
 
     @Test
-    public void test5(){ paymentPage.clickOk();}
-
-    @Test
-    public void test6(){ paymentPage.checkSum();}
+    public void testCheckSum(){
+        paymentPage.checkSum();
+    }
 }
