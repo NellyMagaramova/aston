@@ -29,23 +29,23 @@ public class TestPayment {
 
     @DisplayName("enter phone")
     @Test
-    public void test1(){
+    public void testPhone(){
         paymentPage.enterPhone();
     }
 
     @DisplayName("enter sum")
     @Test
-    public void test2(){ paymentPage.enterSum();}
+    public void testSumm(){ paymentPage.enterSum();}
 
     @DisplayName("enter email")
     @Test
-    public void test3(){ paymentPage.enterEmail();}
+    public void testEmail(){ paymentPage.enterEmail();}
 
     @DisplayName("click ok")
     @Test
-    public void test5(){ paymentPage.clickOk();}
+    public void testOk(){ paymentPage.clickOk();}
 
     @DisplayName("check sum")
     @Test
-    public void test6(){ paymentPage.checkSum();}
+    public void testCheckSum(){ paymentPage.checkSum();}
 }
